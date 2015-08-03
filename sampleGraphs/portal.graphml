@@ -1,0 +1,1469 @@
+<graphml>
+ <key id="label" for="node" attr.name="label" attr.type="string"/>
+ <key id="type" for="all" attr.name="type" attr.type="string"/>
+ <key id="CANCER_DRUG" for="node" attr.name="CANCER_DRUG" attr.type="string"/>
+ <key id="SYNONYMS" for="node" attr.name="SYNONYMS" attr.type="string"/>
+ <key id="NAME" for="node" attr.name="NAME" attr.type="string"/>
+ <key id="DESCRIPTION" for="node" attr.name="DESCRIPTION" attr.type="string"/>
+ <key id="NUMBER_OF_CLINICAL_TRIALS" for="node" attr.name="NUMBER_OF_CLINICAL_TRIALS" attr.type="integer"/>
+ <key id="PERCENT_MUTATED" for="node" attr.name="PERCENT_MUTATED" attr.type="double"/>
+ <key id="RELATIONSHIP_XREF" for="node" attr.name="RELATIONSHIP_XREF" attr.type="string"/>
+ <key id="PERCENT_ALTERED" for="node" attr.name="PERCENT_ALTERED" attr.type="double"/>
+ <key id="PERCENT_CNA_HOMOZYGOUSLY_DELETED" for="node" attr.name="PERCENT_CNA_HOMOZYGOUSLY_DELETED" attr.type="double"/>
+ <key id="IN_QUERY" for="node" attr.name="IN_QUERY" attr.type="string"/>
+ <key id="ATC_CODE" for="node" attr.name="ATC_CODE" attr.type="string"/>
+ <key id="FDA_APPROVAL" for="node" attr.name="FDA_APPROVAL" attr.type="string"/>
+ <key id="TARGETS" for="node" attr.name="TARGETS" attr.type="string"/>
+ <key id="PERCENT_CNA_AMPLIFIED" for="node" attr.name="PERCENT_CNA_AMPLIFIED" attr.type="double"/>
+ <key id="EXPERIMENTAL_TYPE" for="edge" attr.name="EXPERIMENTAL_TYPE" attr.type="string"/>
+ <key id="INTERACTION_DATA_SOURCE" for="edge" attr.name="INTERACTION_DATA_SOURCE" attr.type="string"/>
+ <key id="INTERACTION_PUBMED_ID" for="edge" attr.name="INTERACTION_PUBMED_ID" attr.type="string"/>
+ <graph edgedefault="undirected">
+  <node id="156">
+   <data key="label">ADRBK1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:ADRBK1;Entrez Gene:156</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.052109181141439205</data>
+   <data key="PERCENT_ALTERED">0.052109181141439205</data>
+  </node>
+  <node id="3480">
+   <data key="label">IGF1R</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:IGF1R;Entrez Gene:3480</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04094292803970223</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0024813895781637717</data>
+   <data key="PERCENT_ALTERED">0.043424317617866005</data>
+  </node>
+  <node id="27085">
+   <data key="label">MTBP</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MTBP;Entrez Gene:27085</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.11042183622828784</data>
+   <data key="PERCENT_ALTERED">0.11042183622828784</data>
+  </node>
+  <node id="5245">
+   <data key="label">PHB</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PHB;Entrez Gene:5245</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.07568238213399504</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.07692307692307693</data>
+  </node>
+  <node id="62232">
+   <data key="label">1-(9-ethyl-9H-carbazol-3-yl)-N-methylmethanamine</data>
+   <data key="type">Drug</data>
+   <data key="NAME">1-(9-ethyl-9H-carbazol-3-yl)-N-methylmethanamine</data>
+   <data key="RELATIONSHIP_XREF">DrugBank:DB08363;ChemSpider:3909885;PubChem Substance:99444834;PDB:P83;PubChem Compound:4722579</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">true</data>
+   <data key="CANCER_DRUG">false</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">TP53</data>
+  </node>
+  <node id="6591">
+   <data key="label">SNAI2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:SNAI2;Entrez Gene:6591</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03598014888337469</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0024813895781637717</data>
+   <data key="PERCENT_ALTERED">0.038461538461538464</data>
+  </node>
+  <node id="59916">
+   <data key="label">Cis-[4,5-Bis-(4-Chlorophenyl)-2-(2-Isopropoxy-4-Methoxyphenyl)-4,5-Dihyd Roimidazol-1-Yl]-Piperazin-1-Yl-Methanone</data>
+   <data key="type">Drug</data>
+   <data key="NAME">Cis-[4,5-Bis-(4-Chlorophenyl)-2-(2-Isopropoxy-4-Methoxyphenyl)-4,5-Dihyd Roimidazol-1-Yl]-Piperazin-1-Yl-Methanone</data>
+   <data key="RELATIONSHIP_XREF">ChemSpider:11592954;DrugBank:DB04144;PubChem Substance:46505482;PDB:IMY;PubChem Compound:46936901</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">false</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="94241">
+   <data key="label">TP53INP1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TP53INP1;Entrez Gene:94241</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.07816377171215881</data>
+   <data key="PERCENT_ALTERED">0.07816377171215881</data>
+  </node>
+  <node id="56893">
+   <data key="label">UBQLN4</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:UBQLN4;Entrez Gene:56893</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04218362282878412</data>
+   <data key="PERCENT_ALTERED">0.04218362282878412</data>
+  </node>
+  <node id="2232">
+   <data key="label">FDXR</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:FDXR;Entrez Gene:2232</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.038461538461538464</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.03970223325062035</data>
+  </node>
+  <node id="6790">
+   <data key="label">AURKA</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:AURKA;Entrez Gene:6790</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.043424317617866005</data>
+   <data key="PERCENT_ALTERED">0.043424317617866005</data>
+  </node>
+  <node id="10987">
+   <data key="label">COPS5</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:COPS5;Entrez Gene:10987</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.05459057071960298</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.05583126550868486</data>
+  </node>
+  <node id="467">
+   <data key="label">ATF3</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:ATF3;Entrez Gene:467</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04466501240694789</data>
+   <data key="PERCENT_ALTERED">0.04466501240694789</data>
+  </node>
+  <node id="142">
+   <data key="label">PARP1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PARP1;Entrez Gene:142</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04218362282878412</data>
+   <data key="PERCENT_ALTERED">0.04218362282878412</data>
+  </node>
+  <node id="8493">
+   <data key="label">PPM1D</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PPM1D;Entrez Gene:8493</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.09429280397022333</data>
+   <data key="PERCENT_ALTERED">0.09429280397022333</data>
+  </node>
+  <node id="4194">
+   <data key="label">MDM4</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MDM4;Entrez Gene:4194</data>
+   <data key="IN_QUERY">true</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.060794044665012405</data>
+   <data key="PERCENT_ALTERED">0.060794044665012405</data>
+  </node>
+  <node id="4193">
+   <data key="label">MDM2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MDM2;Entrez Gene:4193</data>
+   <data key="IN_QUERY">true</data>
+   <data key="PERCENT_MUTATED">0.5</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.028535980148883373</data>
+   <data key="PERCENT_ALTERED">0.028535980148883373</data>
+  </node>
+  <node id="4804">
+   <data key="label">NGFR</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:NGFR;Entrez Gene:4804</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.06947890818858561</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.0707196029776675</data>
+  </node>
+  <node id="6275">
+   <data key="label">S100A4</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:S100A4;Entrez Gene:6275</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04466501240694789</data>
+   <data key="PERCENT_ALTERED">0.04466501240694789</data>
+  </node>
+  <node id="6273">
+   <data key="label">S100A2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:S100A2;Entrez Gene:6273</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04466501240694789</data>
+   <data key="PERCENT_ALTERED">0.04466501240694789</data>
+  </node>
+  <node id="6279">
+   <data key="label">S100A8</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:S100A8;Entrez Gene:6279</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04962779156327544</data>
+   <data key="PERCENT_ALTERED">0.04962779156327544</data>
+  </node>
+  <node id="4170">
+   <data key="label">MCL1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MCL1;Entrez Gene:4170</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.07320099255583126</data>
+   <data key="PERCENT_ALTERED">0.07320099255583126</data>
+  </node>
+  <node id="990">
+   <data key="label">CDC6</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:CDC6;Entrez Gene:990</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.062034739454094295</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0037220843672456576</data>
+   <data key="PERCENT_ALTERED">0.06575682382133995</data>
+  </node>
+  <node id="3428">
+   <data key="label">IFI16</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:IFI16;Entrez Gene:3428</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.038461538461538464</data>
+   <data key="PERCENT_ALTERED">0.038461538461538464</data>
+  </node>
+  <node id="10397">
+   <data key="label">NDRG1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:NDRG1;Entrez Gene:10397</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.10297766749379653</data>
+   <data key="PERCENT_ALTERED">0.10297766749379653</data>
+  </node>
+  <node id="11244">
+   <data key="label">ZHX1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:ZHX1;Entrez Gene:11244</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.11786600496277916</data>
+   <data key="PERCENT_ALTERED">0.11786600496277916</data>
+  </node>
+  <node id="56950">
+   <data key="label">SMYD2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:SMYD2;Entrez Gene:56950</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04466501240694789</data>
+   <data key="PERCENT_ALTERED">0.04466501240694789</data>
+  </node>
+  <node id="1655">
+   <data key="label">DDX5</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:DDX5;Entrez Gene:1655</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.0707196029776675</data>
+   <data key="PERCENT_ALTERED">0.0707196029776675</data>
+  </node>
+  <node id="9015">
+   <data key="label">TAF1A</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TAF1A;Entrez Gene:9015</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04218362282878412</data>
+   <data key="PERCENT_ALTERED">0.04218362282878412</data>
+  </node>
+  <node id="64099">
+   <data key="label">Nutlin-3a</data>
+   <data key="type">Drug</data>
+   <data key="NAME">Nutlin-3a</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:11433190</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">Nutlin-3a (-) enantiomer</data>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="5747">
+   <data key="label">PTK2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PTK2;Entrez Gene:5747</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.0794044665012407</data>
+   <data key="PERCENT_ALTERED">0.0794044665012407</data>
+  </node>
+  <node id="84687">
+   <data key="label">PPP1R9B</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PPP1R9B;Entrez Gene:84687</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.06947890818858561</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.0707196029776675</data>
+  </node>
+  <node id="4609">
+   <data key="label">MYC</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MYC;Entrez Gene:4609</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.14640198511166252</data>
+   <data key="PERCENT_ALTERED">0.14640198511166252</data>
+  </node>
+  <node id="64275">
+   <data key="label">HLI 373</data>
+   <data key="type">Drug</data>
+   <data key="NAME">HLI 373</data>
+   <data key="RELATIONSHIP_XREF">CTRP:146;PubChem Compound:435678.0</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">DPD</data>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="1453">
+   <data key="label">CSNK1D</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:CSNK1D;Entrez Gene:1453</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03225806451612903</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0024813895781637717</data>
+   <data key="PERCENT_ALTERED">0.034739454094292806</data>
+  </node>
+  <node id="3838">
+   <data key="label">KPNA2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:KPNA2;Entrez Gene:3838</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.0707196029776675</data>
+   <data key="PERCENT_ALTERED">0.0707196029776675</data>
+  </node>
+  <node id="64087">
+   <data key="label">JNJ-26854165</data>
+   <data key="type">Drug</data>
+   <data key="NAME">JNJ-26854165</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:11609586</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="7832">
+   <data key="label">BTG2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:BTG2;Entrez Gene:7832</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.05831265508684864</data>
+   <data key="PERCENT_ALTERED">0.05831265508684864</data>
+  </node>
+  <node id="4332">
+   <data key="label">MNDA</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MNDA;Entrez Gene:4332</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.038461538461538464</data>
+   <data key="PERCENT_ALTERED">0.038461538461538464</data>
+  </node>
+  <node id="58">
+   <data key="label">ACTA1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:ACTA1;Entrez Gene:58</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0012406947890818859</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03970223325062035</data>
+   <data key="PERCENT_ALTERED">0.04094292803970223</data>
+  </node>
+  <node id="64031">
+   <data key="label">Nutlin-3</data>
+   <data key="type">Drug</data>
+   <data key="NAME">Nutlin-3</data>
+   <data key="RELATIONSHIP_XREF">CTRP:210;PubChem Compound:216345.0</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">1</data>
+   <data key="DESCRIPTION">MDM2 Inhibitor; Other targeted therapies</data>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="7083">
+   <data key="label">TK1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TK1;Entrez Gene:7083</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03970223325062035</data>
+   <data key="PERCENT_ALTERED">0.03970223325062035</data>
+  </node>
+  <node id="64115">
+   <data key="label">Roscovitine</data>
+   <data key="type">Drug</data>
+   <data key="NAME">Roscovitine</data>
+   <data key="RELATIONSHIP_XREF">NSC:701554;PubChem Compound:160355;PubChem Substance:527377</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">Seliciclib</data>
+   <data key="TARGETS">CDKL5;CDK2AP1;CDK15;CDKL3;CDK5RAP1;CDK1;CDK11B;CDK11A;CDK13;CDK10;CDK2;CDK3;CDK4;CDK5;CDK5R1;CDK5R2;CDK6;CDK7;CDK8;CDK9;CDKL1;CDKL2;CDKN1A;CDKN1B;CDKN1C;CDKN2A;CDKN2B;CDKN2C;CDKN2D;CDKN3;CDK7PS;CDK5RAP2;CDK5RAP3;CDK8PS;CDK4PS;CDKL4;CDK19;CDKAL1;CDK5PS;CDK20;CDK12;CDKN2AIP;CDKN2AIPNL;CDK2AP2;CDKN2B-AS1;CDK2AP2P1;CDK2AP2P3;CDKN2AIPNLP3;CDKN2AIPNLP1;CDKN2AIPNLP2;CDKN1A-AS1;CDK16;CDK17;CDK18;CDK14</data>
+  </node>
+  <node id="1380">
+   <data key="label">CR2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:CR2;Entrez Gene:1380</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.05459057071960298</data>
+   <data key="PERCENT_ALTERED">0.05459057071960298</data>
+  </node>
+  <node id="8557">
+   <data key="label">TCAP</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TCAP;Entrez Gene:8557</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.12406947890818859</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.12531017369727046</data>
+  </node>
+  <node id="58695">
+   <data key="label">Cis-[4,5-Bis-(4-Bromophenyl)-2-(2-Ethoxy-4-Methoxyphenyl)-4,5-Dihydroimidazol-1-Yl]-[4-(2-Hydroxyethyl)Piperazin-1-Yl]Methanone</data>
+   <data key="type">Drug</data>
+   <data key="NAME">Cis-[4,5-Bis-(4-Bromophenyl)-2-(2-Ethoxy-4-Methoxyphenyl)-4,5-Dihydroimidazol-1-Yl]-[4-(2-Hydroxyethyl)Piperazin-1-Yl]Methanone</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:46936514;DrugBank:DB02872;PubChem Substance:46507913;PDB:IMZ;ChemSpider:8253868</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">false</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="5824">
+   <data key="label">PEX19</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PEX19;Entrez Gene:5824</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04838709677419355</data>
+   <data key="PERCENT_ALTERED">0.04838709677419355</data>
+  </node>
+  <node id="7534">
+   <data key="label">YWHAZ</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:YWHAZ;Entrez Gene:7534</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.10049627791563276</data>
+   <data key="PERCENT_ALTERED">0.10049627791563276</data>
+  </node>
+  <node id="7022">
+   <data key="label">TFAP2C</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TFAP2C;Entrez Gene:7022</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04590570719602978</data>
+   <data key="PERCENT_ALTERED">0.04590570719602978</data>
+  </node>
+  <node id="5578">
+   <data key="label">PRKCA</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PRKCA;Entrez Gene:5578</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.07196029776674938</data>
+   <data key="PERCENT_ALTERED">0.07196029776674938</data>
+  </node>
+  <node id="64355">
+   <data key="label">pifithrin-mu</data>
+   <data key="type">Drug</data>
+   <data key="NAME">pifithrin-mu</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:327653.0;CTRP:226</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">NSC 303580</data>
+   <data key="TARGETS">TP53;HSPA1A;HSPA1B;HSPA1L</data>
+  </node>
+  <node id="50484">
+   <data key="label">RRM2B</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:RRM2B;Entrez Gene:50484</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.09429280397022333</data>
+   <data key="PERCENT_ALTERED">0.09429280397022333</data>
+  </node>
+  <node id="5883">
+   <data key="label">RAD9A</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:RAD9A;Entrez Gene:5883</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.052109181141439205</data>
+   <data key="PERCENT_ALTERED">0.052109181141439205</data>
+  </node>
+  <node id="375">
+   <data key="label">ARF1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:ARF1;Entrez Gene:375</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04218362282878412</data>
+   <data key="PERCENT_ALTERED">0.04218362282878412</data>
+  </node>
+  <node id="64365">
+   <data key="label">PRIMA-1</data>
+   <data key="type">Drug</data>
+   <data key="NAME">PRIMA-1</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:322968.0;CTRP:236</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">TP53</data>
+  </node>
+  <node id="64366">
+   <data key="label">PRIMA-1-Met</data>
+   <data key="type">Drug</data>
+   <data key="NAME">PRIMA-1-Met</data>
+   <data key="RELATIONSHIP_XREF">CTRP:237;PubChem Compound:5.2918385E7</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">APR-246</data>
+   <data key="TARGETS">TP53</data>
+  </node>
+  <node id="5499">
+   <data key="label">PPP1CA</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PPP1CA;Entrez Gene:5499</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.052109181141439205</data>
+   <data key="PERCENT_ALTERED">0.052109181141439205</data>
+  </node>
+  <node id="5591">
+   <data key="label">PRKDC</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:PRKDC;Entrez Gene:5591</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04094292803970223</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0024813895781637717</data>
+   <data key="PERCENT_ALTERED">0.043424317617866005</data>
+  </node>
+  <node id="1029">
+   <data key="label">CDKN2A</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:CDKN2A;Entrez Gene:1029</data>
+   <data key="IN_QUERY">true</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.00620347394540943</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.034739454094292806</data>
+   <data key="PERCENT_ALTERED">0.04094292803970223</data>
+  </node>
+  <node id="64377">
+   <data key="label">RITA</data>
+   <data key="type">Drug</data>
+   <data key="NAME">RITA</data>
+   <data key="RELATIONSHIP_XREF">CTRP:248;PubChem Compound:374536.0</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">NSC652287</data>
+   <data key="TARGETS">TP53;MDM2</data>
+  </node>
+  <node id="5867">
+   <data key="label">RAB4A</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:RAB4A;Entrez Gene:5867</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03970223325062035</data>
+   <data key="PERCENT_ALTERED">0.03970223325062035</data>
+  </node>
+  <node id="7153">
+   <data key="label">TOP2A</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TOP2A;Entrez Gene:7153</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03970223325062035</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.004962779156327543</data>
+   <data key="PERCENT_ALTERED">0.04466501240694789</data>
+  </node>
+  <node id="7159">
+   <data key="label">TP53BP2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TP53BP2;Entrez Gene:7159</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.04838709677419355</data>
+   <data key="PERCENT_ALTERED">0.04838709677419355</data>
+  </node>
+  <node id="7157">
+   <data key="label">TP53</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:TP53;Entrez Gene:7157</data>
+   <data key="IN_QUERY">true</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.00620347394540943</data>
+   <data key="PERCENT_ALTERED">0.00620347394540943</data>
+  </node>
+  <node id="5469">
+   <data key="label">MED1</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:MED1;Entrez Gene:5469</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.10049627791563276</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0012406947890818859</data>
+   <data key="PERCENT_ALTERED">0.10173697270471464</data>
+  </node>
+  <node id="64387">
+   <data key="label">SJ-172550</data>
+   <data key="type">Drug</data>
+   <data key="NAME">SJ-172550</data>
+   <data key="RELATIONSHIP_XREF">CTRP:258;PubChem Compound:1317466.0</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">TP53;MDM2</data>
+  </node>
+  <node id="64385">
+   <data key="label">serdemetan</data>
+   <data key="type">Drug</data>
+   <data key="NAME">serdemetan</data>
+   <data key="RELATIONSHIP_XREF">CTRP:256;PubChem Compound:6.016755E7</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS">JNJ 26854165</data>
+   <data key="TARGETS">MDM2</data>
+  </node>
+  <node id="64383">
+   <data key="label">SCH-529074</data>
+   <data key="type">Drug</data>
+   <data key="NAME">SCH-529074</data>
+   <data key="RELATIONSHIP_XREF">PubChem Compound:1.2001922E7;CTRP:254</data>
+   <data key="ATC_CODE"/>
+   <data key="FDA_APPROVAL">false</data>
+   <data key="CANCER_DRUG">true</data>
+   <data key="NUMBER_OF_CLINICAL_TRIALS">-1</data>
+   <data key="DESCRIPTION"/>
+   <data key="SYNONYMS"/>
+   <data key="TARGETS">TP53</data>
+  </node>
+  <node id="81928">
+   <data key="label">CABLES2</data>
+   <data key="type">Protein</data>
+   <data key="RELATIONSHIP_XREF">HGNC:CABLES2;Entrez Gene:81928</data>
+   <data key="IN_QUERY">false</data>
+   <data key="PERCENT_MUTATED">0.0</data>
+   <data key="PERCENT_CNA_AMPLIFIED">0.03722084367245657</data>
+   <data key="PERCENT_CNA_HOMOZYGOUSLY_DELETED">0.0024813895781637717</data>
+   <data key="PERCENT_ALTERED">0.03970223325062035</data>
+  </node>
+  <edge source="7157" target="5245" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">14500729</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="1655" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="5578" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9935181,1454855,9571186</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="5591" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="5883" target="4193" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="10397" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="11244" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15383276</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="7083" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16169070</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="5578" target="5867" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="7153" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10666337</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="5578" target="58" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10628374</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="64275" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:146</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="58695" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">PubMed:17016423;PubMed:17139284</data>
+   <data key="INTERACTION_DATA_SOURCE">DrugBank</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4609" target="10397" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4193" target="156" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17006543</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="7534" target="5578" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11950841</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="5469" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11118038,9444950</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7534" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9620776,16376338</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="1029" target="5824" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16582619</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="84687" target="1029" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11278317</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="7534" target="5883" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="10987" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11285227,17879958</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="3428" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11146555</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="5883" target="990" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="6591" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="142" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9565608,12898523,14627987</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="2232" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="1655" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="990" target="5883" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="50484" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">12615712</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="64355" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:226</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4609" target="7083" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="6275" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11527429,15116098,12942774,11278647</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="4609" target="7157" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4194" target="375" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11297540</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="6591" target="7157" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="6273" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15941720</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="5469" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15848166</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="467" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7159" target="5499" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15231748</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="7157" target="5591" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="990" target="5883" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="4193" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="56950" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4194" target="4193" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="10987" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4170" target="7157" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="64387" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:258</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="5747" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15855171</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="56950" target="7157" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="10397" target="1655" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17220478</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="6275" target="58" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">14640694</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="5591" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10470151,9765199,11551930,11709713,10673501,10747897,11883897,10951572</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="1655" target="7157" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4194" target="7534" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16511560</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="6790" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">12198151</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="64115" target="1029" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID"/>
+   <data key="INTERACTION_DATA_SOURCE">CancerRxGene</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="1655" target="7157" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="10987" target="7157" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="64087" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID"/>
+   <data key="INTERACTION_DATA_SOURCE">CancerRxGene</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="7159" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">8016121,8668206,8875926</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="64099" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID"/>
+   <data key="INTERACTION_DATA_SOURCE">CancerRxGene</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="64365" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:236</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4332" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16458891</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="64387" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:258</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="7157" target="58" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11821948</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="7832" target="5578" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11237868</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="56950" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17108971</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="1029" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">12085228,9529248,9529249</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="6279" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16169070</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="8493" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17936559</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="8493" target="4193" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="1029" target="4609" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15361884</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="990" target="1029" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15232106</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="4193" target="56893" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17290220</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="7157" target="50484" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="94241" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="64031" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:210</data>
+   <data key="INTERACTION_DATA_SOURCE">Cancer Cell Line Encylopedia;CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4194" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">8895579,9226370,12393902,11528400,15604276,17110929</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="3480" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">12821780,18632619</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="5591" target="142" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9398855</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="6790" target="7157" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="1380" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">7753047</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="7157" target="7832" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="5578" target="156" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11042191</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="5578" target="1655" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">7525583</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="5867" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16169070</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="5499" target="6790" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11551964</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="64377" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:248</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4193" target="10987" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17879958</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="59916" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">PubMed:17016423;PubMed:10592235;PubMed:17139284</data>
+   <data key="INTERACTION_DATA_SOURCE">DrugBank</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="8557" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16678796</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="64377" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:248</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="7157" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">16432196,12867035,7686617,12842086,9278461,15604276,17159902,18309296,18451149,17936559,18815136,17879958</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="27085" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10906133</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="64383" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:254</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="4804" target="7157" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4194" target="4193" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10218570,12393902,12483531,10608892,17159902</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="56950" target="7157" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="1655" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15660129</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="4193" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="467" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11792711</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="64385" target="4193" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:256</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="5578" target="7153" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">7499337,12569090</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="5883" target="990" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="94241" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">11511362,12851404</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="5591" target="7157" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="9015" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10913176</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="8493" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">17936559</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo</data>
+  </edge>
+  <edge source="3838" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10930427</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="990" target="4609" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">10899308</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="1453" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9349507,10606744</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro;in vivo</data>
+  </edge>
+  <edge source="7157" target="4170" directed="false">
+   <data key="type">REACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="7157" target="6273" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4193" target="7157" directed="true">
+   <data key="type">STATE_CHANGE</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="4193" target="7157" directed="false">
+   <data key="type">CO_CONTROL</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="5591" target="7157" directed="false">
+   <data key="type">IN_SAME_COMPONENT</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+  <edge source="62232" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">PubMed:10592235</data>
+   <data key="INTERACTION_DATA_SOURCE">DrugBank</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="7022" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">12226108</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="7157" target="5499" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15231748</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">yeast 2-hybrid</data>
+  </edge>
+  <edge source="7534" target="3480" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">9581554</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="84687" target="5499" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">15231748,10194355</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vivo;yeast 2-hybrid</data>
+  </edge>
+  <edge source="64366" target="7157" directed="true">
+   <data key="type">DRUG_TARGET</data>
+   <data key="INTERACTION_PUBMED_ID">CTRP:237</data>
+   <data key="INTERACTION_DATA_SOURCE">CTRP</data>
+   <data key="EXPERIMENTAL_TYPE"/>
+  </edge>
+  <edge source="81928" target="7157" directed="false">
+   <data key="type">INTERACTS_WITH</data>
+   <data key="INTERACTION_PUBMED_ID">14637168</data>
+   <data key="INTERACTION_DATA_SOURCE">HPRD</data>
+   <data key="EXPERIMENTAL_TYPE">in vitro</data>
+  </edge>
+  <edge source="7157" target="6591" directed="true">
+   <data key="type">METABOLIC_CATALYSIS</data>
+   <data key="INTERACTION_PUBMED_ID">NA</data>
+   <data key="INTERACTION_DATA_SOURCE">NCI_NATURE</data>
+   <data key="EXPERIMENTAL_TYPE">NA</data>
+  </edge>
+ </graph>
+</graphml>
