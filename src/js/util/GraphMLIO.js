@@ -12,7 +12,6 @@ function loadXMLDoc(fileName) {
     xhttp = new ActiveXObject("Microsoft.XMLHTTP");
   }
   xhttp.open("GET", fileName, false);
-  xhttp.send();
   return xhttp.responseXML;
 }
 ;
@@ -214,4 +213,3 @@ GraphMLToJSon.prototype.toJSON = function () {
   }
   return this.elements;
 };
-
