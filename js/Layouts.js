@@ -101,7 +101,7 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 200,
                 'width': 200,
-                'background-image': 'webPic1.jpg',
+                'background-image': 'webPic2.png',
                 'border-width': 1,
                 'border-color': 'black'
             })
@@ -109,7 +109,7 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'facebookLogo.png',
+                'background-image': 'facebookLogo.jpg',
                 'border-width': 1,
                 'border-color': 'white'
             })
