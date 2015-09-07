@@ -95,6 +95,7 @@ function refreshCytoscape(graphData) { // on dom ready
                 'text-outline-width': 2,
                 'text-outline-color': 'white',
                 'border-width': 1,
+                'border-color': 'black'
 
             })
             .selector('#head')
@@ -187,6 +188,20 @@ function refreshCytoscape(graphData) { // on dom ready
                     } catch(e){ // fall back on url change
 
                     }
+                }
+            });
+            cy.on('mouseover', 'node', function(evt){
+                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
+                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                {
+                    this.style('border-width', 2);
+                }
+            });
+            cy.on('mouseout', 'node', function(evt){
+                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
+                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                {
+                    this.style('border-width', 0);
                 }
             });
         }
