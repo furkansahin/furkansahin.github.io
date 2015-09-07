@@ -102,24 +102,35 @@ function refreshCytoscape(graphData) { // on dom ready
                 'height': 200,
                 'width': 200,
                 'background-image': 'webPic2.png',
-                'border-width': 1,
-                'border-color': 'black'
+                'border-width': 0
             })
             .selector('#facebook')
             .css({
                 'height': 90,
                 'width': 90,
                 'background-image': 'facebookLogo.jpg',
-                'border-width': 1,
-                'border-color': 'white'
+                'border-width': 0
             })
             .selector('#github')
             .css({
                 'height': 90,
                 'width': 90,
                 'background-image': 'githubLogo.png',
-                'border-width': 1,
-                'border-color': 'black'
+                'border-width': 0
+            })
+            .selector('#cv')
+            .css({
+                'height': 90,
+                'width': 90,
+                'background-image': 'cv.png',
+                'border-width': 0
+            })
+            .selector('#linkedin')
+            .css({
+                'height': 90,
+                'width': 90,
+                'background-image': 'LinkedinLogo.png',
+                'border-width': 0
             })
             .selector('node:selected')
             .css({
@@ -166,11 +177,16 @@ function refreshCytoscape(graphData) { // on dom ready
             cy.$("#cv")[0]._private.data['href'] = 'CV.pdf';
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
+            cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
             cy.on('tap', 'node', function(evt){
-                try { // your browser may block popups
-                    window.open( this.data('href') );
-                } catch(e){ // fall back on url change
-                    window.location.href = this.data('href');
+                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
+                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                {
+                    try { // your browser may block popups
+                        window.open( this.data('href') );
+                    } catch(e){ // fall back on url change
+
+                    }
                 }
             });
         }

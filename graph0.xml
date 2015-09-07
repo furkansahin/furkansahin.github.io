@@ -64,6 +64,15 @@
 			<data key="color1">255 255 255</data>
 			<data key="shape">Circle</data>
 		</node>
+        <node id="linkedin">
+            <data key="x">326.3876669777849</data>
+            <data key="y">258.3029296178655</data>
+            
+            <data key="color">255 255 255</data>
+            <data key="text"></data>
+            <data key="color1">255 255 255</data>
+            <data key="shape">Circle</data>
+        </node>
 		<edge id="e0" source="head" target="cv">
 			<data key="style">undefined</data>
 			<data key="arrow">undefined</data>
@@ -97,5 +106,16 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
+        <edge id="e3" source="head" target="linkedin">
+            <data key="style">undefined</data>
+            <data key="arrow">undefined</data>
+            <data key="bendpoint">undefined</data>
+            <data key="color">undefined</data>
+            <data key="borderColor">undefined</data>
+            <data key="text"></data>
+            <data key="textFont">undefined</data>
+            <data key="textColor">undefined</data>
+            <data key="highlightColor">undefined</data>
+        </edge>
 	</graph>
 </graphml>
