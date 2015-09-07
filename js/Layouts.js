@@ -49,22 +49,9 @@ $(function () {
             animate: true,
             infinite: true,
             ungrabifyWhileSimulating: false
-            // Whether to fit the network view after when done
         },
 
         ready: function(){
-/*            var i = 0;
-            cy.on('tap', 'node', function(evt){
-                if (i < 2){
-                    if (this._private.data.id != edgeNodes[i])
-                        edgeNodes[i++] = this._private.data.id;
-                }
-                else{
-                    edgeNodes[0] = this._private.data.id;
-                    i = 0;
-                }
-            });
-*/
             var xmlObject = loadXMLDoc("graph0.xml");
             var graphmlConverter = graphmlToJSON(xmlObject);
             atts = graphmlConverter.attributes;
@@ -143,6 +130,7 @@ function refreshCytoscape(graphData) { // on dom ready
             })
             .selector('edge')
             .css({
+                'width': 2,
                 'background-color': 'black',
                 'line-color': 'black',
                 'color': 'black',
