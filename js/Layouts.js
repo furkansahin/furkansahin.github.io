@@ -93,7 +93,7 @@ function refreshCytoscape(graphData) { // on dom ready
                 'text-valign': 'center',
                 'color': 'white',
                 'text-outline-width': 2,
-                'text-outline-color': '#888',
+                'text-outline-color': 'white',
                 'border-width': 1,
 
             })
@@ -101,7 +101,7 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 200,
                 'width': 200,
-                'background-image': 'webPic.jpg',
+                'background-image': 'webPic1.jpg',
                 'border-width': 1,
                 'border-color': 'black'
             })
@@ -111,7 +111,7 @@ function refreshCytoscape(graphData) { // on dom ready
                 'width': 90,
                 'background-image': 'facebookLogo.png',
                 'border-width': 1,
-                'border-color': 'black'
+                'border-color': 'white'
             })
             .selector('#github')
             .css({

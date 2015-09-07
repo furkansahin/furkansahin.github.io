@@ -26,7 +26,7 @@
       <data key="textFont">1|Arial|20.25|0|WINDOWS|1|-27|0|0|0|0|0|0|0|1|0|0|0|0|Arial</data>
       <data key="textColor">0 0 0</data>
       <data key="clusterID">0</data>
-      <data key="shape">rectangle</data>
+      <data key="shape">circle</data>
     </node>
     <node id="n1">
       <data key="x">153</data>
