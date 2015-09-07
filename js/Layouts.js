@@ -129,7 +129,7 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'LinkedinLogo.png',
+                'background-image': 'cv.png',
                 'border-width': 0
             })
             .selector('node:selected')
