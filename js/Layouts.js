@@ -163,7 +163,7 @@ function refreshCytoscape(graphData) { // on dom ready
         wheelSensitivity: 0.1,
         ready: function(){
             var i = 0;
-            cy.$("#cv")[0]._private.data['href'] = 'sources/CV.pdf';
+            cy.$("#cv")[0]._private.data['href'] = 'https://github.com/furkansahin/CV/raw/master/CV.pdf';
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
             cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
