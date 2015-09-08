@@ -52,7 +52,7 @@ $(function () {
         },
 
         ready: function(){
-            var xmlObject = loadXMLDoc("graph0.xml");
+            var xmlObject = loadXMLDoc("sources/graph0.xml");
             var graphmlConverter = graphmlToJSON(xmlObject);
             atts = graphmlConverter.attributes;
 
@@ -89,35 +89,35 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 200,
                 'width': 200,
-                'background-image': 'webPic2.png',
+                'background-image': 'sources/images/webPic2.png',
                 'border-width': 0
             })
             .selector('#facebook')
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'facebookLogo.jpg',
+                'background-image': 'sources/images/facebookLogo.jpg',
                 'border-width': 0
             })
             .selector('#github')
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'githubLogo.png',
+                'background-image': 'sources/images/githubLogo.png',
                 'border-width': 0
             })
             .selector('#cv')
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'cv.png',
+                'background-image': 'sources/images/cv.png',
                 'border-width': 0
             })
             .selector('#linkedin')
             .css({
                 'height': 90,
                 'width': 90,
-                'background-image': 'LinkedInLogo.png',
+                'background-image': 'sources/images/LinkedInLogo.png',
                 'border-width': 0
             })
             .selector('node:selected')
@@ -163,7 +163,7 @@ function refreshCytoscape(graphData) { // on dom ready
         wheelSensitivity: 0.1,
         ready: function(){
             var i = 0;
-            cy.$("#cv")[0]._private.data['href'] = 'CV.pdf';
+            cy.$("#cv")[0]._private.data['href'] = 'sources/CV.pdf';
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
             cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
