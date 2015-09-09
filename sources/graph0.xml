@@ -58,7 +58,7 @@
 		<node id="github">
 			<data key="x">326.3876669777849</data>
 			<data key="y">258.3029296178655</data>
-		
+
 			<data key="color">255 255 255</data>
 			<data key="text"></data>
 			<data key="color1">255 255 255</data>
@@ -67,13 +67,30 @@
         <node id="linkedin">
             <data key="x">326.3876669777849</data>
             <data key="y">258.3029296178655</data>
-            
+
             <data key="color">255 255 255</data>
             <data key="text"></data>
             <data key="color1">255 255 255</data>
             <data key="shape">Circle</data>
         </node>
-		<edge id="e0" source="head" target="cv">
+		<node id="twitter">
+            <data key="x">326.3876669777849</data>
+            <data key="y">258.3029296178655</data>
+
+            <data key="color">255 255 255</data>
+            <data key="text"></data>
+            <data key="color1">255 255 255</data>
+            <data key="shape">Circle</data>
+        </node>
+		<node id="gPlus">
+            <data key="x">326.3876669777849</data>
+            <data key="y">258.3029296178655</data>
+            <data key="color">255 255 255</data>
+            <data key="text"></data>
+            <data key="color1">255 255 255</data>
+            <data key="shape">Circle</data>
+        </node>
+		<edge id="head-cv" source="head" target="cv">
 			<data key="style">undefined</data>
 			<data key="arrow">undefined</data>
 			<data key="bendpoint">undefined</data>
@@ -84,7 +101,7 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
-		<edge id="e1" source="head" target="facebook">
+		<edge id="head-facebook" source="head" target="facebook">
 			<data key="style">undefined</data>
 			<data key="arrow">undefined</data>
 			<data key="bendpoint">undefined</data>
@@ -95,7 +112,7 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
-		<edge id="e2" source="head" target="github">
+		<edge id="head-github" source="head" target="github">
 			<data key="style">undefined</data>
 			<data key="arrow">undefined</data>
 			<data key="bendpoint">undefined</data>
@@ -106,7 +123,29 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
-        <edge id="e3" source="head" target="linkedin">
+        <edge id="head-linkedin" source="head" target="linkedin">
+            <data key="style">undefined</data>
+            <data key="arrow">undefined</data>
+            <data key="bendpoint">undefined</data>
+            <data key="color">undefined</data>
+            <data key="borderColor">undefined</data>
+            <data key="text"></data>
+            <data key="textFont">undefined</data>
+            <data key="textColor">undefined</data>
+            <data key="highlightColor">undefined</data>
+        </edge>
+		<edge id="head-twitter" source="head" target="twitter">
+            <data key="style">undefined</data>
+            <data key="arrow">undefined</data>
+            <data key="bendpoint">undefined</data>
+            <data key="color">undefined</data>
+            <data key="borderColor">undefined</data>
+            <data key="text"></data>
+            <data key="textFont">undefined</data>
+            <data key="textColor">undefined</data>
+            <data key="highlightColor">undefined</data>
+        </edge>
+		<edge id="head-gPlus" source="head" target="gPlus">
             <data key="style">undefined</data>
             <data key="arrow">undefined</data>
             <data key="bendpoint">undefined</data>

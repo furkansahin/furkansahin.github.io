@@ -87,30 +87,30 @@ function refreshCytoscape(graphData) { // on dom ready
             })
             .selector('#head')
             .css({
-                'height': 200,
-                'width': 200,
-                'background-image': 'sources/images/webPic2.png',
+                'height': 250,
+                'width': 250,
+                'background-image': 'sources/images/webPic4.jpg',
                 'border-width': 0
             })
             .selector('#facebook')
             .css({
-                'height': 90,
-                'width': 90,
+                'height': 50,
+                'width': 50,
                 'background-image': 'sources/images/facebookLogo.jpg',
                 'border-width': 0
             })
             .selector('#github')
             .css({
-                'height': 90,
-                'width': 90,
+                'height': 100,
+                'width': 100,
                 'background-image': 'sources/images/githubLogo.png',
                 'border-width': 0
             })
             .selector('#cv')
             .css({
-                'height': 90,
-                'width': 90,
-                'background-image': 'sources/images/cv.png',
+                'height': 150,
+                'width': 150,
+                'background-image': 'sources/images/cv1.png',
                 'border-width': 0
             })
             .selector('#linkedin')
@@ -118,6 +118,20 @@ function refreshCytoscape(graphData) { // on dom ready
                 'height': 90,
                 'width': 90,
                 'background-image': 'sources/images/LinkedInLogo.png',
+                'border-width': 0
+            })
+            .selector('#twitter')
+            .css({
+                'height': 50,
+                'width': 50,
+                'background-image': 'sources/images/twitter.png',
+                'border-width': 0
+            })
+            .selector('#gPlus')
+            .css({
+                'height': 50,
+                'width': 50,
+                'background-image': 'sources/images/google+.png',
                 'border-width': 0
             })
             .selector('node:selected')
@@ -143,6 +157,22 @@ function refreshCytoscape(graphData) { // on dom ready
                 'line-color': 'black',
                 'width': 4,
                 'opacity':1
+            })
+            .selector('#head-cv')
+            .css({
+                'width': 5,
+            })
+            .selector('#head-github')
+            .css({
+                'width': 4,
+            })
+            .selector('#head-facebook')
+            .css({
+                'width': 2,
+            })
+            .selector('#head-linkedin')
+            .css({
+                'width': 3,
             }),
 
 
@@ -167,9 +197,10 @@ function refreshCytoscape(graphData) { // on dom ready
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
             cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
+            cy.$("#twitter")[0]._private.data['href'] = 'https://twitter.com/sahinffurkan';
+            cy.$("#gPlus")[0]._private.data['href'] = 'https://plus.google.com/u/0/+MehmetFurkanŞahin/posts';
             cy.on('tap', 'node', function(evt){
-                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
-                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                if (this._private.data['id'] != 'head')
                 {
                     try { // your browser may block popups
                         window.open( this.data('href') );
@@ -179,15 +210,13 @@ function refreshCytoscape(graphData) { // on dom ready
                 }
             });
             cy.on('mouseover', 'node', function(evt){
-                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
-                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                if (this._private.data['id'] != 'head')
                 {
                     this.style('border-width', 2);
                 }
             });
             cy.on('mouseout', 'node', function(evt){
-                if (this._private.data['id'] == 'cv' || this._private.data['id'] == 'facebook'
-                        ||this._private.data['id'] == 'linkedin' || this._private.data['id'] == 'github')
+                if (this._private.data['id'] != 'head')
                 {
                     this.style('border-width', 0);
                 }
