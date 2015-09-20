@@ -89,7 +89,7 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'height': 250,
                 'width': 250,
-                'background-image': 'sources/images/webPic4.jpg',
+                'background-image': 'sources/images/webPic5.jpg',
                 'border-width': 0
             })
             .selector('#facebook')
