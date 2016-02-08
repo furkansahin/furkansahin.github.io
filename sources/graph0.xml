@@ -101,6 +101,17 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
+        <edge id="cv-github" source="cv" target="github">
+            <data key="style">undefined</data>
+            <data key="arrow">undefined</data>
+            <data key="bendpoint">undefined</data>
+            <data key="color">undefined</data>
+            <data key="borderColor">undefined</data>
+            <data key="text"></data>
+            <data key="textFont">undefined</data>
+            <data key="textColor">undefined</data>
+            <data key="highlightColor">undefined</data>
+        </edge>
 		<edge id="head-facebook" source="head" target="facebook">
 			<data key="style">undefined</data>
 			<data key="arrow">undefined</data>
