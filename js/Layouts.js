@@ -87,22 +87,22 @@ function refreshCytoscape(graphData) { // on dom ready
             })
             .selector('#head')
             .css({
-                'height': 250,
-                'width': 250,
+                'height': 350,
+                'width': 350,
                 'background-image': 'sources/images/webPic5.png',
                 'border-width': 0
             })
             .selector('#facebook')
             .css({
-                'height': 50,
-                'width': 50,
+                'height': 150,
+                'width': 150,
                 'background-image': 'sources/images/facebookLogo.jpg',
                 'border-width': 0
             })
             .selector('#github')
             .css({
-                'height': 100,
-                'width': 100,
+                'height': 150,
+                'width': 150,
                 'background-image': 'sources/images/githubLogo.png',
                 'border-width': 0
             })
@@ -115,22 +115,22 @@ function refreshCytoscape(graphData) { // on dom ready
             })
             .selector('#linkedin')
             .css({
-                'height': 90,
-                'width': 90,
+                'height': 150,
+                'width': 150,
                 'background-image': 'sources/images/LinkedInLogo.png',
                 'border-width': 0
             })
             .selector('#twitter')
             .css({
-                'height': 50,
-                'width': 50,
+                'height': 150,
+                'width': 150,
                 'background-image': 'sources/images/twitter.png',
                 'border-width': 0
             })
             .selector('#gPlus')
             .css({
-                'height': 50,
-                'width': 50,
+                'height': 150,
+                'width': 150,
                 'background-image': 'sources/images/google+.png',
                 'border-width': 0
             })

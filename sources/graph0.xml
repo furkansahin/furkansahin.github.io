@@ -35,7 +35,7 @@
 			<data key="color">136 136 136</data>
 			<data key="text"></data>
 			<data key="color1">136 136 136</data>
-			<data key="shape">Roundrectangle</data>
+			<data key="shape">Circle</data>
 		</node>
 		<node id="cv">
 			<data key="x">467.0267020797804</data>
