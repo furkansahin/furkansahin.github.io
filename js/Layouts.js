@@ -144,7 +144,7 @@ function refreshCytoscape(graphData) { // on dom ready
             })
             .selector('edge')
             .css({
-                'width': 2,
+                'width': 1,
                 'background-color': 'black',
                 'line-color': 'black',
                 'color': 'black',
@@ -155,24 +155,24 @@ function refreshCytoscape(graphData) { // on dom ready
             .selector('edge:selected')
             .css({
                 'line-color': 'black',
-                'width': 4,
+                'width': 1,
                 'opacity':1
             })
             .selector('#head-cv')
             .css({
-                'width': 5,
+                'width': 1,
             })
             .selector('#head-github')
             .css({
-                'width': 4,
+                'width': 1,
             })
             .selector('#head-facebook')
             .css({
-                'width': 2,
+                'width': 1,
             })
             .selector('#head-linkedin')
             .css({
-                'width': 3,
+                'width': 1,
             }),
 
 
