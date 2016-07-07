@@ -120,6 +120,13 @@ function refreshCytoscape(graphData) { // on dom ready
                 'background-image': 'sources/images/LinkedInLogo.png',
                 'border-width': 0
             })
+            .selector('#instagram')
+            .css({
+                'height': 150,
+                'width': 150,
+                'background-image': 'sources/images/InstagramLogo.png',
+                'border-width': 0
+            })
             .selector('#twitter')
             .css({
                 'height': 150,
@@ -162,6 +169,10 @@ function refreshCytoscape(graphData) { // on dom ready
             .css({
                 'width': 1,
             })
+            .selector('#head-instagram')
+            .css({
+                'width': 1,
+            })
             .selector('#head-github')
             .css({
                 'width': 1,
@@ -197,6 +208,7 @@ function refreshCytoscape(graphData) { // on dom ready
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
             cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
+            cy.$("#instagram")[0]._private.data['href'] = 'https://www.instagram.com/sahinfurkan07/';
             cy.$("#twitter")[0]._private.data['href'] = 'https://twitter.com/sahinffurkan';
             cy.$("#gPlus")[0]._private.data['href'] = 'https://plus.google.com/u/0/+MehmetFurkanŞahin/posts';
             cy.on('tap', 'node', function(evt){
