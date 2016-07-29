@@ -208,7 +208,7 @@ function refreshCytoscape(graphData) { // on dom ready
             cy.$("#facebook")[0]._private.data['href'] = 'https://www.facebook.com/sahinfurkan07';
             cy.$("#github")[0]._private.data['href'] = 'https://github.com/furkansahin';
             cy.$("#linkedin")[0]._private.data['href'] = 'https://tr.linkedin.com/in/mfsahin';
-            cy.$("#instagram")[0]._private.data['href'] = 'https://www.instagram.com/sahinfurkan07/';
+            cy.$("#instagram")[0]._private.data['href'] = 'https://www.instagram.com/mfsahinmfs/';
             cy.$("#twitter")[0]._private.data['href'] = 'https://twitter.com/sahinffurkan';
             cy.$("#gPlus")[0]._private.data['href'] = 'https://plus.google.com/u/0/+MehmetFurkanŞahin/posts';
             cy.on('tap', 'node', function(evt){
