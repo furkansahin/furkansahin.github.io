@@ -132,7 +132,7 @@
 			<data key="textColor">undefined</data>
 			<data key="highlightColor">undefined</data>
 		</edge>
-        
+
         <edge id="head-linkedin" source="head" target="linkedin">
             <data key="style">undefined</data>
             <data key="arrow">undefined</data>
